@@ -1,56 +1,79 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Чарівна історія</title>
-  <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainrot Shop</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1 class="main-title">Чарівна історія</h1>
+<header>
+    <h1>BRAINROT SHOP</h1>
+    <p>Магазин скупки и продажи брейнротов • Без скама • Быстрые админы</p>
+</header>
 
-  <div class="story-block">
-    <p>
-      У самому серці густого лісу, де ранковий туман ніжно обіймає дерева, жила добра фея Лілія. 
-      Щоранку вона прокидалась від співу пташок і розмовляла з квітами, які відкривалися тільки для неї.
-    </p>
-    <img src="data:image/jpeg;base64,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" alt="Фея у лісі">
-  </div>
+<nav class="links">
+    <a href="https://t.me/vlasyukShop" target="_blank">Наш Telegram</a>
+    <a href="https://www.tiktok.com/@vlasyuk.shop" target="_blank">Наш TikTok</a>
+</nav>
 
-  <div class="story-block">
-    <p>
-      Одного разу вона знайшла стару карту, загублену між сторінками книги, і зрозуміла — це шлях до чарівного джерела, 
-      яке виконує найщиріші бажання. Не гаючи часу, Лілія вирушила в подорож.
-    </p>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf0MH7uMbDk27p_yEy5DELSe78QpkdPFQvmQ&s" alt="Карта пригод">
-  </div>
+<section class="info">
+    <h2>Почему именно мы?</h2>
+    <div class="info-block">
+        <h3>✔ Без скама</h3>
+        <p>Мы честно скупаем и продаём брейнроты. У нас открытый Telegram-чат, отзывы и быстрая поддержка.</p>
+    </div>
 
-  <div class="story-block">
-    <p>
-      На згадку про квіти, що проводжали її, вона створила компас з пелюсток. 
-      Цей компас світився зеленим світлом, коли вона була на правильному шляху.
-    </p>
-    <img src="https://sdmntprnortheu.oaiusercontent.com/files/00000000-e7e4-61f4-9241-f6a715e98dc8/raw?se=2025-05-10T07%3A58%3A17Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=b32d65cd-c8f1-46fb-90df-c208671889d4&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-10T04%3A46%3A05Z&ske=2025-05-11T04%3A46%3A05Z&sks=b&skv=2024-08-04&sig=Vw%2Bzb8nQcqPfgwSnfAyoZrffwf2nW35kBzlqo1zRvBA%3D" alt="Компас серед квітів">
-  </div>
+    <div class="info-block">
+        <h3>✔ Быстрая связь с админами</h3>
+        <p>У нашего магазина несколько админов, которые отвечают быстро и помогают оформить заказ.</p>
+    </div>
 
-  <div class="story-block">
-    <p>
-      В її пригоді було все: і темні хащі, і мудрі тварини. Сова навчила її слухати серце, 
-      кролик показав шлях крізь туман, а дракон поділився вогнем тепла, який ніс у собі.
-    </p>
-    <img src="https://img.freepik.com/premium-photo/great-grey-owl-strix-nebulosa-tree-forest_50206-769.jpg" alt="Сова на гілці">
-  </div>
+    <div class="info-block">
+        <h3>✔ Новости стиля Brainrot</h3>
+        <p>Мы следим за трендами и обновляем ассортимент. Все свежие новости — в нашем ТГК.</p>
+    </div>
 
-  <div class="story-block">
-    <p>
-      Лілія дійшла до джерела, опустила туди краплю роси з листка і загадала бажання — 
-      щоб кожне створіння у світі відчуло радість, хоча б на мить. І з того дня ліс засяяв добротою.
-    </p>
-    <img src="https://thumbs.dreamstime.com/b/%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9-%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%BD%D0%B0%D0%B4%D0%BF%D0%B8%D1%81%D0%B8-%D0%BD%D0%B0-%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D0%BE%D0%BC-%D1%84%D0%BE%D0%BD%D0%B5-%D1%80%D1%83%D0%BA%D0%BE%D0%BF%D0%B8%D1%81%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BE%D0%BD%D0%B5%D1%86-%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8-208123151.jpg" alt="Щасливий фінал">
-  </div>
+    <a class="big-btn" href="https://t.me/vlasyukShop" target="_blank">Больше информации — в Telegram</a>
+</section>
 
-  <footer>
-    <p>✨ Казку створено з любов'ю | Власюком Богданом</p>
+<section class="products">
+    <!-- ТОВАР 1 -->
+    <div class="product">
+        <div class="img-placeholder">Место для картинки</div>
+        <h2>Brainrot Hoodie</h2>
+        <p class="desc">Худи в стиле brainrot — топовый вариант.</p>
+        <p class="price">499 грн</p>
+        <a class="buy-btn" href="https://t.me/vlasyukShop" target="_blank">Купить</a>
+    </div>
+
+    <!-- ТОВАР 2 -->
+    <div class="product">
+        <div class="img-placeholder">Место для картинки</div>
+        <h2>Brainrot Mask</h2>
+        <p class="desc">Трендовая маска brainrot.</p>
+        <p class="price">149 грн</p>
+        <a class="buy-btn" href="https://t.me/vlasyukShop" target="_blank">Купить</a>
+    </div>
+
+    <!-- ТОВАР 3 -->
+    <div class="product">
+        <div class="img-placeholder">Место для картинки</div>
+        <h2>Brainrot Sticker Pack</h2>
+        <p class="desc">Четкий набор наклеек.</p>
+        <p class="price">49 грн</p>
+        <a class="buy-btn" href="https://t.me/vlasyukShop" target="_blank">Купить</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Brainrot Shop • Связь: @vlasyukShop</p>
+</footer>
+
+</body>
+</html>
+
   </footer>
 
 </body>
